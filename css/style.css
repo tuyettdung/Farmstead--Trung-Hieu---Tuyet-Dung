@@ -34,14 +34,15 @@ li {
   list-style: none;
 }
 
-a {
+a,button {
   text-decoration: none;
 color: unset;
 }
 
-a:hover{
+a:hover,button:hover{
   text-decoration: none;
   color: unset;
+  background-color: unset;
 }
 
 div {
@@ -49,11 +50,13 @@ div {
 }
 
 .small-title {
+  font-family: 'Volkhov', serif;
   color: var(--primary-color);
   font-size: 22px;
 }
 
 .title {
+  font-family: 'Volkhov', serif;
   font-size: 40px;
   line-height: 50px;
   font-weight: 600;
@@ -119,12 +122,30 @@ p {
   
 }
 
-
-
 .item-right p {
   margin-top: 10px;
 }
 
 /* gallery */
+.gallary-item {
+  padding: 0;
+}
+
+.btn-gallery{
+  padding: 12px 30px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--primary-color);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 30px;
+    transition: all .25s ease-in-out;
+}
+
+.btn-gallery:hover {
+  background-color: var(--secondary-color) !important;
+}
 /* clients */
 /* footer */
