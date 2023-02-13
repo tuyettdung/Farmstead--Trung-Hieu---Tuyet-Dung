@@ -267,7 +267,7 @@ p {
 
 
 .owl-dot span {
-  background: rgba(0, 0, 0, 0.3) !important;
+  background: rgba(255, 255, 255, 0.3) !important;
     border-radius: 50% !important;
     margin: 0 8px !important;
 }

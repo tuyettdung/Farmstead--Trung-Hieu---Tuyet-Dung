@@ -18,7 +18,7 @@
  .owl-carousel .owl-stage {
    position: relative;
    touch-action: manipulation;
-   -moz-backface-visibility: hidden;
+   backface-visibility: hidden;
  }
  
  .owl-carousel .owl-stage:after {
@@ -33,19 +33,14 @@
  .owl-carousel .owl-stage-outer {
    position: relative;
    overflow: hidden;
-   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
  }
  
- .owl-carousel .owl-item,
- .owl-carousel .owl-wrapper {
-   -webkit-backface-visibility: hidden;
-   -webkit-transform: translate3d(0, 0, 0);
- }
- 
+
  .owl-carousel .owl-item {
    min-height: 1px;
    float: left;
-   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
    -webkit-touch-callout: none;
  }
  
@@ -185,7 +180,7 @@
    background: url(owl.video.play.png) no-repeat;
    cursor: pointer;
    z-index: 1;
-   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
    transition: transform .1s ease;
  }
  
@@ -292,6 +287,7 @@
  .owl-dot:focus {
    outline: none;
    box-shadow: none;
+  
  }
  
  .owl-theme .owl-nav .disabled {
@@ -315,7 +311,7 @@
    margin: 5px 1px;
    background: #aaa;
    display: block;
-   -webkit-backface-visibility: visible;
+ backface-visibility: visible; 
    transition: opacity .2s ease;
    position: relative;
    opacity: 0.9;
@@ -338,5 +334,5 @@
  
  .owl-theme .owl-dots .owl-dot.active span,
  .owl-theme .owl-dots .owl-dot:hover span {
-   background: #fff;
+   background: #fb811e !important;
  }
