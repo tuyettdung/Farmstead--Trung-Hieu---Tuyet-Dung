@@ -200,17 +200,105 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* clients */
+.clients {
+  background: url(../img/bg1.jpg);
+  position: relative;
+  z-index: 1;
+}
+
+.clients::before {
+  content: "";
+    background: rgb(10 10 10 / 52%);
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.testimonial-content {
+  max-width: 900px;
+    margin: auto;
+}
+
+.testi-left {
+  text-align: center;
+}
+
+.testi-left img {
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  overflow: hidden;
+  background: var(--bg-color);
+  border-radius: 50%;
+}
+
+.testi-left h3 {
+  font-family: 'Volkhov', serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff; 
+  margin: 10px 0 5px;
+}
+
+.testi-left p {
+  font-size: 16px;
+  color: #fff;
+}
+
+
+.testi-right span {
+  font-size: 20px;
+  font-weight: 600;
+    color: var(--primary-color);
+    display: inline-block;
+}
+
+.testi-right q {
+  font-size: 22px;
+    line-height: 34px;
+    color: #fff;
+    text-indent: 30px;
+    display: block;
+}
+
+
+.owl-dot span {
+  background: rgba(0, 0, 0, 0.3) !important;
+    border-radius: 50% !important;
+    margin: 0 8px !important;
+}
+
+.owl-dot span:hover {
+  background: var(--primary-color) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
+
+
+
+
+
+
+
+
+
 @keyframes shine {
   100% {
     left: 125%;
