@@ -276,6 +276,23 @@ p {
   background: var(--primary-color) !important;
 }
 
+@media screen and (max-width:768px) {
+  .testimonial-content .testimonial .testi-right{
+    text-align: center;
+    
+  }
+  .testimonial-content .testimonial .testi-right q {
+    font-size: 22px;
+  }
+  
+}
+
+@media screen and (max-width:598px) {
+  .testimonial-content .testimonial .testi-right q {
+    font-size: 16px;
+  }
+}
+
 
 
 
