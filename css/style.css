@@ -85,22 +85,23 @@ p {
 .services .services-top h3,h5{
   font-family: 'Volkhov', serif;
 }
+.services .services-top .services-right{
+  display: flex;
+}
 .services::after{
   content: 'Services';
   font-size: 10rem;
   font-weight: 700;
   position: absolute;
-  top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
   left: 0;
   z-index: 0;
   width: 100%;
-  text-align: center;
-  border: 1px solid red;
   color: #ffffff23;
   font-family: 'Volkhov', serif;
-
-}
-.services .services-bottom .servicse-item{
 
 }
 .services .services-bottom .services-item img{
@@ -137,11 +138,13 @@ p {
   bottom: 3rem;
   left: -5rem;
 }
-.quality .quality-right .quality-stick span{
+.quality .quality-right .quality-stick .number{
   font-size: 4.5rem;
   line-height: 5rem;
   font-weight: 700;
   color: #ffff;
+  font-family: 'Volkhov', serif;
+  
 }
 .quality .quality-right .quality-stick p{
   color: #ffff;
