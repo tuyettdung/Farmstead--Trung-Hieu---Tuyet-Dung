@@ -76,7 +76,77 @@ p {
 /* carousel-section */
 /* features */
 /* services */
+.services{
+  background-color: var(--secondary-color);
+}
+.services .container-fluid .services-top .services-left,.services-right{
+  z-index: 1;
+}
+.services .services-top h3,h5{
+  font-family: 'Volkhov', serif;
+}
+.services::after{
+  content: 'Services';
+  font-size: 10rem;
+  font-weight: 700;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  text-align: center;
+  border: 1px solid red;
+  color: #ffffff23;
+  font-family: 'Volkhov', serif;
+
+}
+.services .services-bottom .servicse-item{
+
+}
+.services .services-bottom .services-item img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+.services .services-bottom .services-item .item-name{
+  color: #009f4d;
+  background-color: #009f4d37;
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 15px;
+  font-weight: 600;
+}
 /* quality */
+.quality h3,h4{
+  font-family: 'Volkhov', serif;
+  
+}
+.quality .choose-title{
+  color: var(--primary-color);
+}
+.quality .quality-bottom .icon{
+  color: var(--primary-color);
+}
+
+.quality .quality-right .quality-stick{
+  background-color: var(--primary-color);
+  display: block;
+  text-align: center;
+  border-radius: 0 0 3rem 0;
+  bottom: 3rem;
+  left: -5rem;
+}
+.quality .quality-right .quality-stick span{
+  font-size: 4.5rem;
+  line-height: 5rem;
+  font-weight: 700;
+  color: #ffff;
+}
+.quality .quality-right .quality-stick p{
+  color: #ffff;
+}
+
 
 /* block-list */
 .list-item {
