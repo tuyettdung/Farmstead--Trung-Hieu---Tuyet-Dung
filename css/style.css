@@ -88,7 +88,7 @@ p {
 .services .services-top .services-right{
   display: flex;
 }
-.services::after{
+.services .services-top .services-right::after{
   content: 'Services';
   font-size: 10rem;
   font-weight: 700;
@@ -104,6 +104,9 @@ p {
   font-family: 'Volkhov', serif;
 
 }
+.services .services-bottom .services-item .container{
+  background-color: #ffff;
+}
 .services .services-bottom .services-item img{
   display: block;
   width: 100%;
@@ -118,6 +121,33 @@ p {
   border-radius: 15px;
   font-weight: 600;
 }
+@media screen and (max-width: 992px){
+  .services .services-top .services-right::after{
+    font-size: 8rem;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .services .services-top .services-right::after{
+    font-size: 6rem;
+    top: 3rem;
+  }
+}
+
+@media screen and (max-width: 598px) {
+  .services .services-top .services-right::after{
+    font-size: 5rem;
+    top:5rem
+  }
+}
+/* dark-theme services */
+.dark-theme .services .services-bottom .services-item .container{
+  background-color: #222222;
+}
+.dark-theme .services .services-bottom .services-item h3, .dark-theme .services .services-bottom .services-item p:last-of-type{
+  color: #e7e1e1;
+}
+
 /* quality */
 .quality h3,h4{
   font-family: 'Volkhov', serif;
@@ -136,7 +166,7 @@ p {
   text-align: center;
   border-radius: 0 0 3rem 0;
   bottom: 3rem;
-  left: -5rem;
+  left: -2rem;
 }
 .quality .quality-right .quality-stick .number{
   font-size: 4.5rem;
@@ -148,6 +178,28 @@ p {
 }
 .quality .quality-right .quality-stick p{
   color: #ffff;
+}
+
+.quality .quality-stick{
+  box-shadow: 30px 30px 20px 10px rgba(10, 10, 10, 0.132);
+}
+@media screen and (max-width: 992px){
+  .quality .quality-bottom .quality-bottom-item .title{
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width:993px){
+  .quality .quality-bottom .quality-bottom-item .title{
+    font-size: 1.3rem;
+  }
+
+}
+/* dark-them quality */
+.dark-theme .quality{
+  background-color: #222222;
+}
+.dark-theme .quality h4, .dark-theme .quality h5{
+  color: #e7e1e1;
 }
 
 
