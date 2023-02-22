@@ -109,7 +109,7 @@ p {
 
 }
 .services .services-bottom .services-item .container{
-  background-color: #ffff;
+  background-color: var(--primary-light);
 }
 .services .services-bottom .services-item img{
   display: block;
