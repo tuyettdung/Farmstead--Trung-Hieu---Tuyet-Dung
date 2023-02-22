@@ -1014,8 +1014,7 @@ ul.submenu .active a {
   }
 }
 
-/* footer */
-
+/* --------------- FOOTER -------------- */
 .footer-item h3 {
   font-family: "Volkhov", serif;
   font-size: 20px;
@@ -1023,7 +1022,7 @@ ul.submenu .active a {
   margin-bottom: 30px;
 }
 
-.footer-item .footer-logo {
+.footer-item .farmstead-logo {
   font-family: "Volkhov", serif;
   font-size: 32px;
   color: var(--primary-color);
@@ -1031,11 +1030,11 @@ ul.submenu .active a {
   transition: all 0.5s;
 }
 
-.footer-item .footer-logo:hover {
+.footer-item .farmstead-logo:hover {
   color: var(--heading-color);
 }
 
-.footer-item .footer-logo i {
+.footer-item .farmstead-logo i {
   position: absolute;
   top: -5px;
   left: 55px;
@@ -1066,22 +1065,22 @@ ul.submenu .active a {
 }
 
 .footer-subcribe .form-sub button:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
-.footer-social li{
+.footer-social li {
   margin-right: 10px;
 }
 .footer-social li a {
   display: inline-block;
   text-align: center;
- 
+
   width: 35px;
   height: 35px;
   color: var(--secondary-color);
-  background: rgb(10 191 83 / 8%);  
-  border-radius: 50%;  
-  transition: all 0.3s;  
+  background: rgb(10 191 83 / 8%);
+  border-radius: 50%;
+  transition: all 0.3s;
 }
 
 .footer-social li a span {
@@ -1091,27 +1090,23 @@ ul.submenu .active a {
 
 .footer-social li a:hover {
   color: var(--primary-color);
-    background: rgb(255 201 69 / 19%);
-    box-shadow: 0px 4px 7px 0px rgb(10 10 10 / 24%);
+  background: rgb(255 201 69 / 19%);
+  box-shadow: 0px 4px 7px 0px rgb(10 10 10 / 24%);
 }
 
 #movetop {
   position: fixed;
-    bottom: 90px;
-    right: 15px;
-    width: 40px;
-    height: 40px;
-    font-size: 16px;
-    color: #fff;
-    background: var(--secondary-color);
-    border: none;
-    outline: none;
-    cursor: pointer;
-    z-index: 12;
+  bottom: 90px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  background: var(--secondary-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 12;
 }
 
-@keyframes shine {
-  100% {
-    left: 125%;
-  }
-}
+/* --------------- END FOOTER -------------- */
