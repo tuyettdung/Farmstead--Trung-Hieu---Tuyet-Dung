@@ -1026,6 +1026,13 @@ ul.submenu .active a {
   margin: 20px;
   padding: 6px;
 }
+
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .gallery-overlay h3 {
     font-size: 32px;
