@@ -840,7 +840,7 @@ ul.submenu .active a {
 .services .services-bottom .services-item img{
   display: block;
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   border-radius: 1rem 1rem 0 0;
 }
 .services .services-bottom .services-item .item-name{
@@ -875,7 +875,7 @@ ul.submenu .active a {
 .quality h3,h4{
   font-family: 'Volkhov', serif;
   
-}z
+}
 .quality .choose-title{
   color: var(--primary-color);
 }
